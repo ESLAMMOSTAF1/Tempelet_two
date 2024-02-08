@@ -1,0 +1,134 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contanier {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .contanier {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .contanier {
+        width: 970px;
+    }
+}
+
+/* Larg */
+@media (min-width: 1200px) {
+    .contanier {
+        width: 1170px;
+    }
+}
+
+.parent {
+    position: relative;
+}
+
+.parent {
+    width: 365px;
+    height: 375px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #aaaaaa45;
+}
+
+.parent p {
+    font-size: 30px;
+    position: absolute;
+    left: 27%;
+    top: -5%;
+}
+
+.parent .child {
+    position: absolute;
+    left: 35px;
+    margin-top: 105px;
+}
+
+.parent .child input {
+    width: 260px;
+    border: 0 solid #eee;
+    outline: 1px solid #333;
+}
+
+.parent .child label {
+    position: absolute;
+    left: 5px;
+    top: -25px;
+    font-size: 18px;
+}
+
+.parent .child_one {
+    position: absolute;
+    left: 35px;
+    margin-top: 160px;
+}
+
+.parent .child_one input {
+    width: 260px;
+    border: 0 solid #eee;
+    outline: 1px solid #333;
+}
+
+.parent .child_one label {
+    position: absolute;
+    left: 5px;
+    top: -25px;
+    font-size: 18px;
+}
+
+.parent a {
+    position: absolute;
+    left: 35px;
+    top: 190px;
+}
+
+.button button {
+    background-color: white;
+    padding: 10px;
+    width: 185px;
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    text-align: center;
+    border: 2px solid #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(../image/pexels-nicole-avagliano-2236713.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+.img .text {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+}
+
+.imge .text h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
